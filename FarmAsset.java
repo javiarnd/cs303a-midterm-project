@@ -1,8 +1,12 @@
-public class FarmAsset {
+public abstract class FarmAsset {
     private String farmName;
     private String totalArea;
 
     FarmAsset() {
+    }
+
+    FarmAsset(String farmName) {
+        this.farmName = farmName;
     }
 
     FarmAsset(String farmName, String totalArea) {
@@ -26,10 +30,5 @@ public class FarmAsset {
         this.totalArea = totalArea;
     }
 
-    public double calculateTotalArea() {
-        // ***
-        return 0.0;
-    }
-
-
+    abstract double calculateFarmAssetValue();
 }
