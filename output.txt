@@ -1,0 +1,26 @@
+Midterm Project Test Results: 
+
+Farm name after setter: Updated Farm One
+Horse breed after setter: Paint
+Horse asset value after grooming: 4600.0
+Tractor durability after use and maintenance: 90
+Tractor asset value: 9000.0
+Cargo within the tractors set capacity.
+The trailer is too heavy for the tractor to pull.
+Farm assets inserted/added to the linked list:
+
+Asset 1 on farm: Updated Farm One
+Asset 2 on farm: Farm One
+Asset 3 on farm: Farm Two
+Asset 4 on farm: Farm Two
+Asset 5 on farm: Farm Three
+
+Farm assets after removing the asset at index 2:
+
+Asset 1 on farm: Updated Farm One
+Asset 2 on farm: Farm One
+Asset 3 on farm: Farm Two
+Asset 4 on farm: Farm Three
+
+Searching for the first horse in the linked list: Found
+Retrieved asset at index 1: Farm One

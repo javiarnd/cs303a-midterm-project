@@ -21,7 +21,7 @@ public abstract class Equipment extends FarmAsset {
 
     public void useEquipment(int usageTimes) throws BrokenEquipmentException {
         durabilityScore -= 10 * usageTimes;
-        if (durabilityScore <= 0) {
+        if (durabilityScore <= 10) {
             throw new BrokenEquipmentException("Equipment is broken and needs maintenance.");
         }
     }
